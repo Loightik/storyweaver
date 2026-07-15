@@ -1,0 +1,24 @@
+name: StoryWeaver
+version: '1.1'
+main: com.pluginforge.generated.storyweaver.StoryWeaver
+api-version: '1.16'
+description: "npc, dialogue, quest, story, rpg"
+author: Loightik
+authors: [Loightik]
+website: https://www.spigotmc.org/
+softdepend: []
+commands:
+  storyweaver:
+    description: StoryWeaver root command (subcommands: admin, reload, discord, telegram, help)
+    usage: /storyweaver [admin|reload|discord|telegram|help]
+    permission: storyweaver.use
+permissions:
+  storyweaver.use:
+    description: StoryWeaver permission (storyweaver.use)
+    default: true
+  storyweaver.admin:
+    description: StoryWeaver permission (storyweaver.admin)
+    default: op
+  storyweaver.reload:
+    description: StoryWeaver permission (storyweaver.reload)
+    default: op

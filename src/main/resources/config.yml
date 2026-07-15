@@ -1,0 +1,51 @@
+# =============================================================================
+# StoryWeaver - storynpc
+# Author: Loightik | Pricing: FREE
+# Always present: config.yml + messages.yml
+# Extra files depend on the plugin concept.
+# =============================================================================
+
+# Core (editable messages live in messages.yml)
+prefix: "&8[&bStoryWeaver&8]&r "
+# Language for messages: en or ru
+language: en   # en | ru
+debug: false
+
+settings:
+  check-updates: false
+  soft-fail-integrations: true
+
+bridge:
+  chat: true
+
+integrations:
+  discord:
+    enabled: false
+    webhook: ""
+  telegram:
+    enabled: false
+    bot-token: ""
+    chat-id: ""
+
+# Concept-specific sections (only used when the plugin needs them)
+gravequest:
+  ttl-seconds: 900
+  protect-owner: true
+
+cargoroute:
+  payout: 120
+  max-active: 1
+
+chrona:
+  every-ticks: 12000
+  events:
+    - meteor-shower
+    - supply-drop
+    - rare-boss-window
+
+plotpulse:
+  season-name: "Season 1"
+  vote-weight: 1
+
+storynpc:
+  max-nodes: 32

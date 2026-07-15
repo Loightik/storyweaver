@@ -1,0 +1,86 @@
+# Customizable player-facing messages for StoryWeaver
+# Placeholders: {prefix} {player} {id} {title} {route} {payout} {event} {npc} {option}
+
+en:
+  common:
+    no-permission: "{prefix}&cNo permission."
+    player-only: "{prefix}&cPlayers only."
+    unknown-command: "{prefix}&cUnknown subcommand. Use /storyweaver help"
+    usage: "{prefix}&eUsage: &f{usage}"
+    reloaded: "{prefix}&aReloaded config + messages."
+    disabled: "{prefix}&cFeature disabled in config."
+  help:
+    header: "{prefix}&b/storyweaver &7help"
+  admin:
+    notify-sent: "{prefix}&aNotify sent."
+    sent: "{prefix}&aNotify sent."
+    offline: "{prefix}&cPlayer offline."
+    watching: "{prefix}&aWatching &f{player}&a."
+  discord:
+    ok: "{prefix}&aDiscord bridge OK."
+    fail: "{prefix}&cDiscord not configured."
+  telegram:
+    ok: "{prefix}&aTelegram bridge OK."
+    fail: "{prefix}&cTelegram not configured."
+  grave:
+    created: "{prefix}&eGrave &f{id} &ecreated. Recover with /storyweaver recover {id}"
+    missing: "{prefix}&cUnknown grave."
+    not-yours: "{prefix}&cNot your grave."
+    recovered: "{prefix}&aRecovered grave &f{id}&a."
+    expired: "{prefix}&cGrave expired."
+  contest:
+    submitted: "{prefix}&aSubmitted &f{title}&a."
+    already-voted: "{prefix}&cAlready voted."
+    voted: "{prefix}&aVote counted."
+  cargo:
+    started: "{prefix}&aContract &f{route}&a accepted."
+    none: "{prefix}&cNo active contract."
+    delivered: "{prefix}&aDelivered &f{route}&a (+{payout})."
+  event:
+    broadcast: "{prefix}&6World event: &e{event}"
+  story:
+    started: "{prefix}&aTalking to &f{npc}&a."
+    none: "{prefix}&cNo active dialogue."
+    choice: "{prefix}&aChose &f{option}&a."
+
+ru:
+  common:
+    no-permission: "{prefix}&cНет прав."
+    player-only: "{prefix}&cТолько для игроков."
+    unknown-command: "{prefix}&cНеизвестная команда. /storyweaver help"
+    usage: "{prefix}&eИспользование: &f{usage}"
+    reloaded: "{prefix}&aКонфиг и сообщения перезагружены."
+    disabled: "{prefix}&cФункция выключена в config.yml."
+  help:
+    header: "{prefix}&b/storyweaver &7help"
+  admin:
+    notify-sent: "{prefix}&aУведомление отправлено."
+    sent: "{prefix}&aУведомление отправлено."
+    offline: "{prefix}&cИгрок оффлайн."
+    watching: "{prefix}&aСлежение за &f{player}&a."
+  discord:
+    ok: "{prefix}&aDiscord мост OK."
+    fail: "{prefix}&cDiscord не настроен."
+  telegram:
+    ok: "{prefix}&aTelegram мост OK."
+    fail: "{prefix}&cTelegram не настроен."
+  grave:
+    created: "{prefix}&eМогила &f{id}&e. Верни: /storyweaver recover {id}"
+    missing: "{prefix}&cМогила не найдена."
+    not-yours: "{prefix}&cЭто не твоя могила."
+    recovered: "{prefix}&aМогила &f{id} &aвозвращена."
+    expired: "{prefix}&cМогила истекла."
+  contest:
+    submitted: "{prefix}&aЗаявка &f{title}&a принята."
+    already-voted: "{prefix}&cУже голосовал."
+    voted: "{prefix}&aГолос учтён."
+  cargo:
+    started: "{prefix}&aКонтракт &f{route}&a взят."
+    none: "{prefix}&cНет активного контракта."
+    delivered: "{prefix}&aДоставлено &f{route}&a (+{payout})."
+  event:
+    broadcast: "{prefix}&6Ивент: &e{event}"
+  story:
+    started: "{prefix}&aДиалог с &f{npc}&a."
+    none: "{prefix}&cНет активного диалога."
+    choice: "{prefix}&aВыбрано &f{option}&a."
